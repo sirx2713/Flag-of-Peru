@@ -1,0 +1,17 @@
+body{
+    background-color: #45474B;
+    color: #F5F7F8;
+}
+.outside-box{
+    height: 400px;
+    width: 1200px;
+    background-color: #C8102E;
+    position: relative;
+}
+.outside-box > #inner-box{
+    height: inherit;
+    width: 400px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 400px;
+}
